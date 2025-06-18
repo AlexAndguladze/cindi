@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cindi.Domain\Cindi.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

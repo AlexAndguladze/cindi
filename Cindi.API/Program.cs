@@ -1,5 +1,12 @@
+using Cindi.Persistence.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
+//dbContext
+var connectionString = builder.Configuration.GetConnectionString("CindiDbContextConnection") ?? throw new InvalidOperationException("Connection string not found");
+builder.Services.AddDbContext<CindiDbContext>(options =>
+options.UseSqlServer(connectionString));
 // Add services to the container.
 
 builder.Services.AddControllers();
