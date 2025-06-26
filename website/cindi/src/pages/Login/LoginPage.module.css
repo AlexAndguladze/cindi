@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 140px;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.loginPanel{
+    width: 50%;
+    max-width: 300px;
+    height: 100px;
+    border-radius: 25px;
+    padding: 40px 10px 40px 10px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginHeader{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+.cindiLogo{
+    height: 60px;
+    width: 60px;
+}
