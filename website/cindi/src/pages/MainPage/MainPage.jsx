@@ -1,10 +1,9 @@
 import React from "react"
-
+import styles from "./MainPage.module.css"
 const MainPage =()=>{
-    console.log("mainPage rendered")
     return(<>
-    <div>
-        <p>MainPage</p>
+    <div className={styles.container}>
+       
     </div>
     </>)
 }

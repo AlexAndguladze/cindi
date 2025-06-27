@@ -9,8 +9,9 @@
 }
 .loginPanel{
     width: 50%;
+    min-width: 235px;
     max-width: 300px;
-    height: 100px;
+    height: 60px;
     border-radius: 25px;
     padding: 40px 10px 40px 10px;
     border: 1px solid gray;

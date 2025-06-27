@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { GoogleOAuthProvider} from "@react-oauth/google";
 import './index.css'
 import App from './App.jsx'
+import '@fontsource/kantumruy-pro'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MainPage from './pages/MainPage/MainPage.jsx'
 import LoginPage from './pages/Login/LoginPage.jsx'

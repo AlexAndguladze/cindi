@@ -1,0 +1,17 @@
+.footer{
+    font-family: "Kantumruy Pro", sans-serif;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+}
+.boxContainer{
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+    margin: 0 auto;
+    gap: 2vw;
+}
+.box{
+    width: 250px;
+    height: 120px;
+    color: black;
+    padding: 10px;
+}

@@ -1,0 +1,7 @@
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Optional: center content vertically */
+    background-color: gray;
+}

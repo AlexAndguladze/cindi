@@ -7,7 +7,7 @@ const Header = () => {
     return(
         <header className={styles.header}>
             <div className={styles.leftSpace}/>
-            <h1 className={styles.title}>Cindi</h1>
+            <h1 className={styles.title}>CINDI</h1>
             <div className={styles.right}>
                 <button className={styles.loginBtn} onClick={() => navigate('/login')}>Login</button>
             </div>
